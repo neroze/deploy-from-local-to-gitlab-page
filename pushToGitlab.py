@@ -2,12 +2,11 @@ import requests
 import os
 import subprocess
 
-
 GITLAB_TOKEN = os.environ.get("GITLAB_ACCESS_TOKEN")
 GITLAB_PROJECT_ID = os.environ.get("GITLAB_ACCESS_TOKEN")
 
 # Path to the static files to deploy
-# STATIC_FILES_PATH = "/Users/nirajmaharjan/python-sandbox/bitbucket-to-Gitlab/dist/"  # dynamic
+# STATIC_FILES_PATH = "/Users/nirajmaharjan/python-sandbox/bitbucket-to-Gitlab/dist/"
 STATIC_FILES_PATH = "[path to your build]/dist/"  # dynamic
 REMOTE_URL = f"https://oauth2:{GITLAB_TOKEN}@gitlab.com/[project]/[Repo].git"
 

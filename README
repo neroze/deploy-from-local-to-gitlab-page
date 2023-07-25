@@ -7,11 +7,12 @@ A simple Python script to deploy static build / files to Gitlab pages
 ```bash
 $ git clone https://github.com/neroze/deploy-from-local-to-gitlab-page.git
 
-// if pythond viroutal env is not already set up
-$ pip install virtualenv
-$ virtualenv env
-$ source env/bin/activate
-$ pip install -r requirements.txt
+// if python virtual env is not already set up
+
+╰─$ pip install virtualenv
+╰─$ virtualenv env
+╰─$ source env/bin/activate
+╰─$ pip install -r requirements.txt
 
 ```
 
